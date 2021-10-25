@@ -1,0 +1,33 @@
+/***系统主体部分***/
+.container {
+  min-height: 100vh;
+
+  /***系统头部***/
+  .contentHeader {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    padding: 0 24px;
+    line-height: 44px;
+    background: #24292f;
+  }
+
+  /***系统内容区域***/
+  .content {
+    display: flex;
+    flex: auto;
+    min-height: 280px;
+    margin: 16px 24px;
+    padding: 24px;
+    background: #fff;
+    & > div {
+      width: 100%;
+    }
+  }
+  .footerContent {
+    height: 40px;
+    padding: 0 24px;
+    line-height: 40px;
+    text-align: center;
+  }
+}
